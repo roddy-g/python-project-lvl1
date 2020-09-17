@@ -6,4 +6,5 @@ roddy_g_brain_games.egg-info/PKG-INFO
 roddy_g_brain_games.egg-info/SOURCES.txt
 roddy_g_brain_games.egg-info/dependency_links.txt
 roddy_g_brain_games.egg-info/entry_points.txt
+roddy_g_brain_games.egg-info/requires.txt
 roddy_g_brain_games.egg-info/top_level.txt
