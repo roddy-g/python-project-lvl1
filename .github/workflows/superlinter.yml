@@ -1,20 +1,7 @@
-name: Super-Linter
-
-# Run this workflow ever time code is pushed to a branch
-# other than `main` in your repository
-on: push
-
-
+name: linter test
+on: [push]
 jobs:
-  # Set the job key. The key is displayed as the job name
-  # when a job name is not provided
-  super-lint:
-    # Name the Job
-    name: Lint code base
-    # Set the type of machine to run on
+  check-bats-version:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Run linter and pytest
-        run: |
-          make check
+      - run: make check
