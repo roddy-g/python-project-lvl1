@@ -17,4 +17,4 @@ jobs:
     steps:
       - name: Run linter and pytest
 	run: |
-	  male check
+	make check
