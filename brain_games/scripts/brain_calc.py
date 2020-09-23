@@ -1,7 +1,5 @@
 from brain_games.scripts import game_flow
 from brain_games.games import game_calc
-import random
-import prompt
 
 
 def main():
