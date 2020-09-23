@@ -14,9 +14,10 @@ def game():
     for _ in range(3):
         number_1 = random.randint(1, 100)
         number_2 = random.randint(1, 100)
-        operations_list = ['+','-','*']
+        operations_list = ['+', '-', '*']
         operation = random.choice(operations_list)
-        answer = prompt.string("Question: {} {} {}\n".format(number_1, operation, number_2))
+        answer = prompt.string(
+            "Question: {} {} {}\n".format(number_1, operation, number_2))
         if operation == '+':
             correct_answer = number_1 + number_2
         elif operation == '-':

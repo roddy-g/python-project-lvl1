@@ -15,7 +15,7 @@ def greeting():
     print("\nWelcome to the Brain Games!")
 
 
-def greeting_name():    
+def greeting_name():
     name = prompt.string('May I have your name? ')
     print('Hello, ', name, "!\n")
     return name
