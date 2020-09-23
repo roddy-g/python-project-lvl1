@@ -1,3 +1,4 @@
+from brain_games.scripts import game_flow
 import prompt
 import random
 
@@ -7,10 +8,9 @@ def main():
 
 
 def game():
-    print("""Welcome to the Brain Games!\nAnswer \"yes\"
-     if number even otherwise answer \"no\".\n""")
-    name = prompt.string('May I have your name? ')
-    print('Hello, ', name, "!\n")
+    game_flow.greeting()
+    print("Answer \"yes\" if number even otherwise answer \"no\".\n")
+    name = game_flow.greeting_name()
     for _ in range(3):
         number = random.randint(1, 100)
         answer = prompt.string("Question: {}\n".format(number))
@@ -18,11 +18,8 @@ def game():
             correct_answer = 'yes'
         else:
             correct_answer = 'no'
-        if answer == correct_answer:
-            print('Correct!')
-        else:
-            print("""\"{}\" is wrong answer ;(. Correct answer was
-        \"{}\".\nLet\"s try again, {}!""".format(answer, correct_answer, name))
+        correct = game_flow.check(answer, correct_answer, name)
+        if not correct:
             return False
     print("Congratulations, {}!".format(name))
 
