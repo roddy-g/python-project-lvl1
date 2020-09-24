@@ -7,8 +7,8 @@ To install use 'pip install -i https://test.pypi.org/simple/ roddy-g-brain-games
 <a href="https://asciinema.org/a/sIzbUsATsgIe4JCz4Hi96nGCp" target="_blank"><img src="https://asciinema.org/a/sIzbUsATsgIe4JCz4Hi96nGCp.svg" /></a>
 # Запуск игры brain-even
 <a href="https://asciinema.org/a/o5dtLoSymOtj11TdO0KECutHe" target="_blank"><img src="https://asciinema.org/a/o5dtLoSymOtj11TdO0KECutHe.svg" /></a>
-# Запуск игры brain-calc
-<script id="asciicast-uLQmOeiZNEq0mG3mhKfTG3Kn0" src="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0.js" async></script>
+# Запуск игры brain-calc 
+<a href="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0" target="_blank"><img src="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0.svg" /></a>
 # Запуск игры brain-progression
 <a href="https://asciinema.org/a/ROm2BL6cfY2YbVoiO4ktQaLRY" target="_blank"><img src="https://asciinema.org/a/ROm2BL6cfY2YbVoiO4ktQaLRY.svg" /></a>
 # Запуск игры brain-prime
