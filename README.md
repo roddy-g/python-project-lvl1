@@ -11,3 +11,5 @@ To install use 'pip install -i https://test.pypi.org/simple/ roddy-g-brain-games
 # Запуск игры brain-calc
 <script id="asciicast-uLQmOeiZNEq0mG3mhKfTG3Kn0" src="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0.js" async></script>
 <a href="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0" target="_blank"><img src="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0.svg" /></a>
+
+https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0
