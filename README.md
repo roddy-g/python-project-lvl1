@@ -13,3 +13,5 @@ To install use 'pip install -i https://test.pypi.org/simple/ roddy-g-brain-games
 <a href="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0" target="_blank"><img src="https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0.svg" /></a>
 
 https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0
+
+[![asciicast](https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0.svg)](https://asciinema.org/a/uLQmOeiZNEq0mG3mhKfTG3Kn0)
