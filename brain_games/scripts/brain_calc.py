@@ -8,7 +8,7 @@ def main():
     name = game_flow.greeting_name()
     result = game_calc.main(name)
     if result:
-        print("Congratulations, {}!".format(name))
+        print("Congratulations,  {}!".format(name))
 
 
 if __name__ == '__main__':
