@@ -4,4 +4,4 @@ To install use 'pip install -i https://test.pypi.org/simple/ roddy-g-brain-games
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 <a href="https://github.com/roddy-g/python-project-lvl1/workflows/lint/badge.svg"><img src="https://github.com/roddy-g/python-project-lvl1/workflows/lint/badge.svg" /></a>
-<a href="https://asciinema.org/a/7friYY414S5OGbqRt8ua3v8Nu" target="_blank"><img src="https://asciinema.org/a/7friYY414S5OGbqRt8ua3v8Nu.svg" /></a>
+<a href="https://asciinema.org/a/sIzbUsATsgIe4JCz4Hi96nGCp" target="_blank"><img src="https://asciinema.org/a/sIzbUsATsgIe4JCz4Hi96nGCp" /></a>
