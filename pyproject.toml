@@ -9,7 +9,6 @@ packages = [
   { include = "brain_games" },
 ]
 
-[tool.poetry]
 classifiers = [
     "Programming Language :: Python :: 3.8"
 ]
