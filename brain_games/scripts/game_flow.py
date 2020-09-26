@@ -21,19 +21,20 @@ def greeting(game_type):
 
 
 def get_name():
-    name = prompt.string('May I have your name? ')
-    print('Hello, ', name, "!\n")
-    return name
+    user_name = prompt.string('May I have your name? ')
+    print('Hello, ', user_name, "!\n")
+    return user_name
 
 
 def game_cycle(game_type):
     greeting(game_type)
-    name = get_name()
+    user_name = get_name()
     for _ in range(3):
         answer, correct_answer = game_type.main()
         if answer == correct_answer:
             print('Correct!')
         else:
             print("""\"{}\" is wrong answer ;(. Correct answer was \"{}\".
-Let\"s try again, {}!""".format(answer, correct_answer, name))
+Let\"s try again, {}!""".format(answer, correct_answer, user_name))
             return False
+    print('Congratulations, {}!'.format(user_name))
