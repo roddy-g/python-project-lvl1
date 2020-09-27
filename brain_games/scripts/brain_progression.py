@@ -1,10 +1,10 @@
-from brain_games.games import game_progression
-from brain_games.scripts import game_flow
+from brain_games.game_engine import game_flow
+from brain_games.games import progression
 
 
-def main():
-    game_flow.game_cycle(game_progression)
+def play_game():
+    game_flow.game_loop(progression)
 
 
 if __name__ == '__main__':
-    main()
+    play_game()

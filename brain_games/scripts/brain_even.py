@@ -1,10 +1,10 @@
-from brain_games.scripts import game_flow
-from brain_games.games import game_even
+from brain_games.game_engine import game_flow
+from brain_games.games import even
 
 
-def main():
-    game_flow.game_cycle(game_even)
+def play_game():
+    game_flow.game_loop(even)
 
 
 if __name__ == '__main__':
-    main()
+    play_game()
