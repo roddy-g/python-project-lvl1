@@ -1,15 +1,13 @@
-from brain_games.scripts import gcd
+from brain_games.game_engine import gcd
 import random
-import prompt
 
 
-def main():
+def play():
     number_1 = random.randint(1, 100)
     number_2 = random.randint(1, 100)
-    answer = int(prompt.string(
-        "Question: {} {}\n".format(number_1, number_2)))
+    question = str(number_1) + ' ' + str(number_2)
     correct_answer = gcd.gcd(number_1, number_2)
-    return (answer, correct_answer)
+    return correct_answer, question
 
 
 def print_game_task():

@@ -15,8 +15,9 @@ def game_loop(game):
     game.print_game_task()
     user_name = get_name_and_greet()
     for _ in range(game_cycles_count):
-        answer, correct_answer = game.main()
-        if answer == correct_answer:
+        correct_answer, question = game.play()
+        answer = prompt.string("Question: {}\n".format(question))
+        if answer == str(correct_answer):
             print('Correct!')
         else:
             print("""\"{}\" is wrong answer ;(. Correct answer was \"{}\".

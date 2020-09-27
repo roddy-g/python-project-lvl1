@@ -1,13 +1,14 @@
-from brain_games.scripts import is_prime
+from brain_games.game_engine import is_prime
 import random
-import prompt
 
 
-def main():
+def play():
     number = random.randint(1, 30)
-    correct_answer = is_prime.is_prime(number)
-    answer = prompt.string("Question: {}\n".format(number))
-    return (answer, correct_answer)
+    if is_prime.is_prime(number):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    return correct_answer, number
 
 
 def print_game_task():
