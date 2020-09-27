@@ -1,9 +1,6 @@
 import prompt
 
 
-game_cycles_count = 3
-
-
 def get_name_and_greet():
     user_name = prompt.string('May I have your name? ')
     print('Hello, ', user_name, "!\n")
@@ -11,6 +8,7 @@ def get_name_and_greet():
 
 
 def game_loop(game):
+    game_cycles_count = 3
     print("\nWelcome to the Brain Games!")
     game.print_game_task()
     user_name = get_name_and_greet()
