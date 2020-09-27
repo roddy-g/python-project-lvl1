@@ -1,0 +1,14 @@
+from brain_games.scripts import is_prime
+import random
+import prompt
+
+
+def main():
+    number = random.randint(1, 30)
+    correct_answer = is_prime.is_prime(number)
+    answer = prompt.string("Question: {}\n".format(number))
+    return (answer, correct_answer)
+
+
+def print_game_task():
+    print("Answer \"yes\" if number is prime. Otherwise answer \"no\".\n")
