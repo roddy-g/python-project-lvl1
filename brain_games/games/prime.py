@@ -1,10 +1,10 @@
-from brain_games.game_engine import is_prime
+from brain_games.game_engine.is_prime import is_prime
 import random
 
 
 def play():
     number = random.randint(1, 30)
-    if is_prime.is_prime(number):
+    if is_prime(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
