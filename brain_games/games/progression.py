@@ -10,7 +10,7 @@ MISSING_PLACE_MIN = 0
 MISSING_PLACE_MAX = 9
 
 
-def play():
+def generate_round():
     step = random.randint(STEP_MIN, STEP_MAX)
     start = random.randint(PROGRESSION_START_MIN, PROGRESSION_START_MAX)
     progression = [(start + step * i) for i in range(PROGRESSION_LENGTH)]

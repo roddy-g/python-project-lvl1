@@ -5,7 +5,7 @@ NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 100
 
 
-def play():
+def generate_round():
     number_1 = random.randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     number_2 = random.randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     question = '{} {}'.format(number_1, number_2)

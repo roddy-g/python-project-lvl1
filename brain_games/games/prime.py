@@ -5,7 +5,7 @@ NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 30
 
 
-def play():
+def generate_round():
     number = random.randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     if is_prime(number):
         correct_answer = 'yes'

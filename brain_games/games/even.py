@@ -5,7 +5,7 @@ NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 100
 
 
-def play():
+def generate_round():
     number = random.randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     if number % 2 == 0:
         correct_answer = 'yes'
