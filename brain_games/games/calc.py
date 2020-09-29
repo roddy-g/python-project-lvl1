@@ -1,11 +1,17 @@
 import random
 
 
+NUMBER_1_LOWER_LIMIT = 1
+NUMBER_1_UPPER_LIMIT = 100
+NUMBER_2_LOWER_LIMIT = 1
+NUMBER_2_UPPER_LIMIT = 100
+
+
 def play():
-    number_1 = random.randint(1, 100)
-    number_2 = random.randint(1, 100)
+    number_1 = random.randint(NUMBER_1_LOWER_LIMIT, NUMBER_1_UPPER_LIMIT)
+    number_2 = random.randint(NUMBER_2_LOWER_LIMIT, NUMBER_2_UPPER_LIMIT)
     operation = random.choice(['+', '-', '*'])
-    question = str(number_1) + operation + str(number_2)
+    question = '{} {} {}'.format(number_1, operation, number_2)
     if operation == '+':
         correct_answer = number_1 + number_2
     elif operation == '-':

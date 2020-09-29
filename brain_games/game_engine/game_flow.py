@@ -20,7 +20,8 @@ def game_loop(game):
         if answer == str(correct_answer):
             print('Correct!')
         else:
-            print("""\"{}\" is wrong answer ;(. Correct answer was \"{}\".
-Let\"s try again, {}!""".format(answer, correct_answer, user_name))
+            print('\"{}\" is wrong answer ;(. '.format(answer), end='')
+            print('Correct answer was \"{}\"'.format(correct_answer))
+            print('Let\"s try again, {}!'.format(user_name))
             return False
     print('Congratulations, {}!'.format(user_name))

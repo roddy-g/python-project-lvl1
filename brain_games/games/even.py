@@ -1,8 +1,12 @@
 import random
 
 
+NUMBER_LOWER_LIMIT = 1
+NUMBER_UPPER_LIMIT = 100
+
+
 def play():
-    number = random.randint(1, 100)
+    number = random.randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     if number % 2 == 0:
         correct_answer = 'yes'
     else:
