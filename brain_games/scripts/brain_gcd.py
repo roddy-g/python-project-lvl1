@@ -1,10 +1,10 @@
-from brain_games.game_engine import game_flow
+from brain_games.game_engine.game_flow import play_game
 from brain_games.games import gcd
 
 
-def play_game():
-    game_flow.game_loop(gcd)
+def launch_game():
+    play_game(gcd)
 
 
 if __name__ == '__main__':
-    play_game()
+    launch_game()

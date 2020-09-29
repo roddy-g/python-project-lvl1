@@ -8,6 +8,7 @@ PROGRESSION_START_MAX = 50
 PROGRESSION_LENGTH = 10
 MISSING_PLACE_MIN = 0
 MISSING_PLACE_MAX = 9
+GAME_TASK = 'What number is missing in the progression?\n'
 
 
 def generate_round():
@@ -19,7 +20,3 @@ def generate_round():
     progression[missing_place] = ".."
     question = ' '.join([str(elem) for elem in progression])
     return correct_answer, question
-
-
-def print_game_task():
-    print("What number is missing in the progression?\n")

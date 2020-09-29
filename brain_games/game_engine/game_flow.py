@@ -10,12 +10,12 @@ def get_name_and_greet():
     return user_name
 
 
-def game_loop(game):
+def play_game(game):
     print("\nWelcome to the Brain Games!")
-    game.print_game_task()
+    print(game.GAME_TASK)
     user_name = get_name_and_greet()
     for _ in range(NUMBER_OF_GAME_CYCLES):
-        correct_answer, question = game.play()
+        correct_answer, question = game.generate_round()
         answer = prompt.string("Question: {}\n".format(question))
         if answer == str(correct_answer):
             print('Correct!')

@@ -5,6 +5,7 @@ NUMBER_1_LOWER_LIMIT = 1
 NUMBER_1_UPPER_LIMIT = 100
 NUMBER_2_LOWER_LIMIT = 1
 NUMBER_2_UPPER_LIMIT = 100
+GAME_TASK = 'What is the result of the expression?\n'
 
 
 def generate_round():
@@ -19,7 +20,3 @@ def generate_round():
     else:
         correct_answer = number_1 * number_2
     return correct_answer, question
-
-
-def print_game_task():
-    print("What is the result of the expression?\n")

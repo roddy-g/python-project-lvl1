@@ -3,6 +3,7 @@ import random
 
 NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 30
+GAME_TASK = 'Answer \"yes\" if number is prime. Otherwise answer \"no\".\n'
 
 
 def generate_round():
@@ -12,10 +13,6 @@ def generate_round():
     else:
         correct_answer = 'no'
     return correct_answer, number
-
-
-def print_game_task():
-    print("Answer \"yes\" if number is prime. Otherwise answer \"no\".\n")
 
 
 def is_prime(number):
