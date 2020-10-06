@@ -19,9 +19,12 @@ def play_game(game):
         answer = prompt.string("Question: {}\n".format(question))
         if answer == str(correct_answer):
             print('Correct!')
+            anwers_were_correct = True
         else:
             print('\"{}\" is wrong answer ;(. '.format(answer), end='')
             print('Correct answer was \"{}\"'.format(correct_answer))
             print('Let\"s try again, {}!'.format(user_name))
-            return False
-    print('Congratulations, {}!'.format(user_name))
+            anwers_were_correct = False
+            break
+    if anwers_were_correct:
+        print('Congratulations, {}!'.format(user_name))
