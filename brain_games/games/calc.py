@@ -15,6 +15,8 @@ def generate_round():
         correct_answer = str(number_1 + number_2)
     elif operation == '-':
         correct_answer = str(number_1 - number_2)
-    else:
+    elif operation == '*':
         correct_answer = str(number_1 * number_2)
+    else:
+        raise ValueError('Operation \'{}\' is not defined!!'.format(operation))
     return correct_answer, question
