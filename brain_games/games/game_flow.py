@@ -19,7 +19,7 @@ def play_game(game):
         answer = prompt.string("Question: {}\n".format(question))
         if answer == correct_answer:
             print('Correct!')
-            if (round_+1) == NUMBER_OF_GAME_ROUNDS:
+            if (round_ + 1) == NUMBER_OF_GAME_ROUNDS:
                 print('Congratulations, {}!'.format(user_name))
         else:
             print('\"{}\" is wrong answer ;(. '.format(answer), end='')
