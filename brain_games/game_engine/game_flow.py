@@ -17,7 +17,7 @@ def play_game(game):
     for _ in range(NUMBER_OF_GAME_CYCLES):
         correct_answer, question = game.generate_round()
         answer = prompt.string("Question: {}\n".format(question))
-        if answer == str(correct_answer):
+        if answer == correct_answer:
             print('Correct!')
             all_anwers_were_correct = True
         else:

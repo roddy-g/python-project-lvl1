@@ -10,7 +10,7 @@ def generate_round():
     number_1 = random.randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     number_2 = random.randint(NUMBER_LOWER_LIMIT, NUMBER_UPPER_LIMIT)
     question = '{} {}'.format(number_1, number_2)
-    correct_answer = find_gcd(number_1, number_2)
+    correct_answer = str(find_gcd(number_1, number_2))
     return correct_answer, question
 
 

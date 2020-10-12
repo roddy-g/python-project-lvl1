@@ -16,7 +16,7 @@ def generate_round():
     start = random.randint(PROGRESSION_START_MIN, PROGRESSION_START_MAX)
     progression = [(start + step * i) for i in range(PROGRESSION_LENGTH)]
     missing_place = random.randint(MISSING_PLACE_MIN, MISSING_PLACE_MAX)
-    correct_answer = progression[missing_place]
+    correct_answer = str(progression[missing_place])
     progression[missing_place] = ".."
     question = ' '.join([str(elem) for elem in progression])
     return correct_answer, question
