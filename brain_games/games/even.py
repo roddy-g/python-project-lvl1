@@ -3,7 +3,7 @@ import random
 
 NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 100
-GAME_TASK = 'Answer \"yes\" if number even otherwise answer \"no\".\n'
+GAME_TASK = 'Answer "yes" if number even otherwise answer "no".\n'
 
 
 def generate_round():

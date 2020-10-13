@@ -18,5 +18,5 @@ def generate_round():
     elif operation == '*':
         correct_answer = str(number_1 * number_2)
     else:
-        raise ValueError('Operation \'{}\' is not defined!!'.format(operation))
+        raise ValueError('Operation "{}" is not defined!!'.format(operation))
     return correct_answer, question

@@ -6,7 +6,7 @@ NUMBER_OF_GAME_ROUNDS = 3
 
 def get_name_and_greet():
     user_name = prompt.string('May I have your name? ')
-    print('Hello, ', user_name, "!\n")
+    print('Hello, {}!\n'.format(user_name))
     return user_name
 
 
@@ -20,9 +20,9 @@ def play_game(game):
         if answer == correct_answer:
             print('Correct!')
         else:
-            print('\"{}\" is wrong answer ;(. '.format(answer), end='')
-            print('Correct answer was \"{}\"'.format(correct_answer))
-            print('Let\"s try again, {}!'.format(user_name))
+            print('"{}" is wrong answer ;(. '.format(answer), end='')
+            print('Correct answer was "{}"'.format(correct_answer))
+            print('Let"s try again, {}!'.format(user_name))
             break
     else:
        print('Congratulations, {}!'.format(user_name))
