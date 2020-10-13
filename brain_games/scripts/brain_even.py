@@ -1,4 +1,4 @@
-from brain_games.games.game_flow import play_game
+from brain_games.game_flow import play_game
 from brain_games.games import even
 
 
