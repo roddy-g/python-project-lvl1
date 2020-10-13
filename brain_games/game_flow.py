@@ -19,10 +19,10 @@ def play_game(game):
         answer = prompt.string("Question: {}\n".format(question))
         if answer == correct_answer:
             print('Correct!')
-            if (round_ + 1) == NUMBER_OF_GAME_ROUNDS:
-                print('Congratulations, {}!'.format(user_name))
         else:
             print('\"{}\" is wrong answer ;(. '.format(answer), end='')
             print('Correct answer was \"{}\"'.format(correct_answer))
             print('Let\"s try again, {}!'.format(user_name))
             break
+    else:
+       print('Congratulations, {}!'.format(user_name))
