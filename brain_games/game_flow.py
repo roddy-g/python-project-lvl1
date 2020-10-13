@@ -25,4 +25,4 @@ def play_game(game):
             print('Let"s try again, {}!'.format(user_name))
             break
     else:
-       print('Congratulations, {}!'.format(user_name))
+        print('Congratulations, {}!'.format(user_name))
