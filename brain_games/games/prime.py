@@ -3,7 +3,7 @@ import random
 
 NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 30
-GAME_TASK = 'Answer "yes" if number is prime. Otherwise answer "no".\n'
+GAME_TASK = 'Answer "yes" if number is prime. Otherwise answer "no".'
 
 
 def generate_round():

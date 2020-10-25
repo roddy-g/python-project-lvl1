@@ -3,7 +3,7 @@ import random
 
 NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 100
-GAME_TASK = 'Find the greatest common divisor of given numbers.\n'
+GAME_TASK = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_round():

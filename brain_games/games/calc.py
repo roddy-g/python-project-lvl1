@@ -3,7 +3,7 @@ import random
 
 NUMBER_LOWER_LIMIT = 1
 NUMBER_UPPER_LIMIT = 100
-GAME_TASK = 'What is the result of the expression?\n'
+GAME_TASK = 'What is the result of the expression?'
 
 
 def generate_round():

@@ -7,7 +7,7 @@ PROGRESSION_START_MIN = 1
 PROGRESSION_START_MAX = 50
 PROGRESSION_LENGTH = 10
 MISSING_PLACE_MIN = 0
-GAME_TASK = 'What number is missing in the progression?\n'
+GAME_TASK = 'What number is missing in the progression?'
 
 
 def generate_round():
